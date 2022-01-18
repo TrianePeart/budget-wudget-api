@@ -1,0 +1,24 @@
+{
+  "name": "budget-wudget-api",
+  "version": "1.0.0",
+  "description": "Budgeting App Api back end.  # Budget-Wudget-Api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrianePeart/Budget-Wudget-Api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrianePeart/Budget-Wudget-Api/issues"
+  },
+  "homepage": "https://github.com/TrianePeart/Budget-Wudget-Api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  }
+}
