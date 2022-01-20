@@ -2,7 +2,7 @@ const express = require("express");
 
 const transaction = express.Router();
 
-const transactions = require("../models/transactonLog.js");
+const transactions = require("../models/transactons.js");
 
 transaction.get("/",(_,response) =>{
     response.json(transactions)
