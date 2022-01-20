@@ -6,7 +6,7 @@ const cors = require("cors");
 
 app.use(cors());
 
-const transactions = require("./controllers/transactions.js");
+const transactions = require("./controllers/transactionsController");
 app.use(express.json());
 app.use(transactions);
 
@@ -18,4 +18,4 @@ app.get("*", (_, response)=> {
     response.status(404).json({error: "Page Not Found"})
 })
 
-module.export = app;
+module.exports = app;
